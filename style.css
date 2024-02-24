@@ -96,3 +96,34 @@ body {
     word-spacing: 3px;
     font-size: medium;
 }
+
+#overviews {
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+#overviews .overview-items {
+    width: 15%;
+    padding: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+#overviews>.first {
+    background-color: #929DFF;
+}
+
+#overviews>.second {
+    background-color: #734CF2;
+}
+
+#overviews>.third {
+    background-color: #D288FF;
+}
+
+#overviews>.fourth {
+    background-color: #000000;
+}
