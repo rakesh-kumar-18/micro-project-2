@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+#navbar {
+    background-color: #6F6AF7;
+    color: #ffffff;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#navbar #main-text {
+    font-family: "Delius Unicase", cursive;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+#navbar #nav-items {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+#navbar #nav-items li {
+    list-style: none;
+    cursor: pointer;
+}
+
+#nav-items li #search-bar {
+    width: 100%;
+    max-width: 300px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px;
+}
+
+#nav-items li>img {
+    width: 8px;
+    margin-left: 2px;
+}
+
+#search-bar input {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+#search-bar button img {
+    width: 10px;
+}
+
+#search-bar button {
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+}
+
+#navbar>img {
+    width: 30px;
+    cursor: pointer;
+}
+
+#main-section {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+}
+
+#main-section>img {
+    width: 30%;
+}
+
+#main-section>textarea {
+    width: 55%;
+    background-color: #E5D8FF;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#main-section>textarea[placeholder] {
+    line-height: 25px;
+    font-family: "DM Sans", sans-serif;
+    padding: 20px;
+    word-spacing: 3px;
+    font-size: medium;
+}
