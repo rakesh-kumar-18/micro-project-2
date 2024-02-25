@@ -38,20 +38,19 @@ body {
     cursor: pointer;
 }
 
+#nav-items li>img {
+    width: 8px;
+    margin-left: 2px;
+}
+
 #nav-items li #search-bar {
     width: 100%;
-    max-width: 300px;
     background-color: #ffffff;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     border-radius: 60px;
-    padding: 5px;
-}
-
-#nav-items li>img {
-    width: 8px;
-    margin-left: 2px;
+    padding: 7px 5px;
 }
 
 #search-bar input {
@@ -61,7 +60,7 @@ body {
 }
 
 #search-bar button img {
-    width: 10px;
+    width: 15px;
 }
 
 #search-bar button {
