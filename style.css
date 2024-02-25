@@ -25,11 +25,12 @@ body {
 }
 
 #navbar #nav-items {
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0;
+    font-size: large;
 }
 
 #navbar #nav-items li {
@@ -81,7 +82,7 @@ body {
     position: sticky;
     top: 100px;
     float: right;
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 #side-bar>img {
@@ -93,7 +94,7 @@ body {
 #main-section {
     display: flex;
     justify-content: flex-end;
-    margin: 60px auto;
+    margin: 70px auto;
 }
 
 #main-section>img {
@@ -104,7 +105,7 @@ body {
     width: 55%;
     background-color: #E5D8FF;
     border-radius: 20px;
-    margin: 20px;
+    margin: 20px 30px 20px 20px;
     border: 6px solid #FFFFFF;
     outline: none;
     box-shadow: 3px 5px 27px 0px #00000040 inset;
@@ -147,4 +148,80 @@ body {
 
 #overviews>.fourth {
     background-color: #000000;
+}
+
+#card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #483EFF;
+    border-radius: 20px;
+    width: 80%;
+    height: 70vh;
+    margin: 100px auto 50px;
+}
+
+#card #btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+#btn>div {
+    padding: 25px 65px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+#btn>#info {
+    background-color: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px #00000063;
+}
+
+#btn>#bookmark {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+#btn>#setting {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+#card>#info-card {
+    background-color: #FFFFFF;
+    color: #04285A;
+    margin: 15px;
+    padding: 30px;
+    width: 60%;
+    border-radius: 10px;
+    position: relative;
+    letter-spacing: 3px;
+    font-size: larger;
+}
+
+#info-card>#details {
+    margin-left: 15px;
+    letter-spacing: 2px;
+}
+
+#details>h5>span {
+    font-weight: lighter;
+    font-size: smaller;
+    letter-spacing: 1px;
+}
+
+#info-card>button {
+    font-family: 'Roboto' sans-serif;
+    font-weight: lighter;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
 }
